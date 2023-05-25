@@ -1,0 +1,4 @@
+mcdp {
+    provides f[dimensionless]
+    requires r = provided f + 10
+}
