@@ -1,5 +1,7 @@
 mcdp {
-    provides f_1[dimensionless]
-    requires r_1[dimensionless]
-    requires
+    provides f₁[dimensionless]
+    requires r₁[dimensionless]
+#    requires r₂[dimensionless]
+    ceil(provided f₁) · 5 + 3 ≤ 10 + floor(required r₁) * 1.2
+
 }
