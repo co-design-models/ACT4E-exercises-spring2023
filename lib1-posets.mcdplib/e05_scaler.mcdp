@@ -1,3 +1,7 @@
+
 mcdp {
-    
+    provides f[dimensionless]
+    requires r[dimensionless]
+    provided f ≤ required r · 10 
 }
+
