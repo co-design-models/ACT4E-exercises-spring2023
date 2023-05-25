@@ -1,0 +1,6 @@
+mcdp {
+    provides f[m]
+    requires r[km]
+    provided f ≤ required r
+     
+}
