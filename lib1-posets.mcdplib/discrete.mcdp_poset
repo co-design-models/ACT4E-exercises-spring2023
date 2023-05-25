@@ -1,3 +1,7 @@
 poset {
+    a ≤ b ≤ d 
+    a ≤ c ≤ d
+    b ≤ e
+    h
     
 }
