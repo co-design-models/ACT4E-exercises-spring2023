@@ -3,5 +3,5 @@ mcdp {
     provides f2[dimensionless]
     requires r[dimensionless]
 
-    provided f1 * provided f2 ≤ required r
+    provided f1 · provided f2 ≤ required r
 }
