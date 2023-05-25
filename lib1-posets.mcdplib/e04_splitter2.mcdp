@@ -3,6 +3,6 @@ mcdp {
     provides f₂ [dimensionless]
     requires r [dimensionless]
     
-    provided f₁  ≤ required r 
-    provided f2 ≤ required r
+    provided f₁ ≤ required r 
+    provided f₂ ≤ required r
 }
