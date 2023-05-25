@@ -1,3 +1,7 @@
-mcdp {
-    
+mcdp { 
+    provides f[dimensionless]
+    requires r[Nat]
+    ceil(provided f) <= required r
+     
+
 }
