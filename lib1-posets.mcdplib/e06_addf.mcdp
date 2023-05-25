@@ -1,4 +1,6 @@
 mcdp {
     provides f[dimensionless]
-    requires r = provided f + 10
+    requires r[dimensionless]
+    
+    provided f + 10 ≤ required r 
 }
