@@ -1,7 +1,7 @@
 mcdp { 
     provides f[dimensionless]
-    requires r[Nat]
-    ceil(provided f) <= required r
+    requires r[ℕ]
+    ceil(provided f) ≤ required r
      
 
 }
