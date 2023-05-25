@@ -1,0 +1,6 @@
+mcdp {
+    provides distance[m]
+    requires speed[furlongs/s]
+    requires time[hours]
+    provided distance ≤ required speed · (required time) - 10 km
+}
