@@ -3,6 +3,6 @@ catalogue {
     provides f₂ [m]
     requires r₁ [USD]
     requires r₂ [W]
-    
+ 
 
 }
