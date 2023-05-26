@@ -1,0 +1,4 @@
+mcdp {
+    provides f[m]
+    provided f ≤ 10 m
+}
