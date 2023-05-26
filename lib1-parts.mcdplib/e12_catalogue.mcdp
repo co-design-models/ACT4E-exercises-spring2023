@@ -1,3 +1,12 @@
-mcdp {
+catalogue {
+    provides f₁ [J]
+    provides f₂ [m]
+    requires r₁ [USD]
+    requires r₂ [W]
     
+    0 J, 0 m ⟻ model1 ⟼  1 USD, 1 W
+    0 J, 1 m ⟻ model2 ⟼  4 USD, 1 W
+    2 J, 0 m ⟻ model3 ⟼  1 USD, 3 W
+    2 J, 2 m ⟻ model4 ⟼  1 USD, 1 W 
+
 }
