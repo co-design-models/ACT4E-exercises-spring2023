@@ -1,0 +1,18 @@
+mcdp {    
+# This is one of the trace axioms - compiles to the identity.
+# See it using the visualization `ndp_graph_expand`
+    a = instance mcdp {
+        provides f [dimensionless]
+        requires r [dimensionless]
+        
+        provides f2 [dimensionless]
+        requires r2 [dimensionless]
+    
+        provided f  ≤ required r2
+        provided f2 ≤ required r
+    }
+    f2 provided by a ≥ r2 required by a
+    requires r for a
+    provides f using a 
+    
+}
