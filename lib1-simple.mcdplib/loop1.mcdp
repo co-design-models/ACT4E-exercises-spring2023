@@ -1,0 +1,21 @@
+mcdp {
+    
+    
+    a = instance mcdp {
+        provides f [dimensionless]
+        requires r [dimensionless]
+        
+        provides f2 [dimensionless]
+        requires r2 [dimensionless]
+    
+        provided f ≤ required r
+        
+        provided f2 <= required r2
+        
+        
+    }
+    f2 provided by a >= r2 required by a
+    requires r for a
+    provides f using a 
+    
+}

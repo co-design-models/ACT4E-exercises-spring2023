@@ -1,0 +1,12 @@
+mcdp {
+    provides f₁[dimensionless]
+    provides f₂[dimensionless]
+        
+
+    r₂ = provided f₁ + 4 · provided f₂
+    r₁ = 2 · provided f₁ + provided f₂
+    
+    
+    requires r = max(r₁, r₂) 
+
+}
