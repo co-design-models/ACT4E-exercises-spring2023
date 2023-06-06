@@ -12,6 +12,6 @@ mcdp {
     }
     f2 provided by a ≥ r2 required by a
     requires r for a
-    provides f using a 
-    
+    provides f using a    
 }
+
