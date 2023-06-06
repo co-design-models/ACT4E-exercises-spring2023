@@ -1,12 +1,13 @@
 mcdp {    
     # This is similar to `loop3` but it is always feasible.
-    # Note that the equation x + 1 = x is satisfied by x = +inf
+    # Note that the equation $x + 1 = x$ is satisfied by $x = +inf$
+    # However, it might be hard to get to +inf by fixed loop...
     a = instance mcdp {
         provides f [dimensionless]
         requires r [dimensionless]
         
         provides f2 [dimensionless]
-        requires r2 [Interval(0, 10)]
+        requires r2 [dimensionless]
     
         provided f  ≤ required r
         provided f2 + 1 ≤ required r2
