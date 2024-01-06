@@ -1,0 +1,19 @@
+mcdp {    
+    # This is similar to `loop3` but it is always feasible.
+    # Note that the equation $x + 1 = x$ is satisfied by $x = +inf$
+    # However, it might be hard to get to +inf by fixed loop...
+    a = instance mcdp {
+        provides f [dimensionless]
+        requires r [dimensionless]
+        
+        provides f2 [dimensionless]
+        requires r2 [dimensionless]
+    
+        provided f  ≤ required r
+        provided f2 + 1 ≤ required r2
+    }
+    f2 provided by a ≥ r2 required by a
+    requires r for a
+    provides f using a 
+    
+}
