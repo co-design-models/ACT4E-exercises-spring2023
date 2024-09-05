@@ -1,8 +1,8 @@
-catalogue {
+catalog {
     provides f [dimensionless]
 
     requires r [dimensionless]
-    
+
     ⊤ dimensionless ⟻ model1 ⟼  ⊥ dimensionless
 
 }
